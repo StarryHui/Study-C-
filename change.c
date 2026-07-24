@@ -5,7 +5,7 @@ int main(){
     int bill=100;
 
     scanf("%d",&price);
-    if(price>100){
+    if(price>=100){
         printf("应找您%d元",price-bill);
     }
     else {
