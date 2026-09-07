@@ -7,13 +7,16 @@ int main(){
     airi(2, 22);
     airi(3, 33);
 
-    int airi (int a ,int b){
-        int sum = 0;
-        
-        sum+=a;
-        sum+=b;    
-            
-        printf("a+b=%d",&sum)
-    }     
+    return 0;
+}
+
+int airi (int a ,int b){
+    int sum = 0;
+
+    sum+=a;
+    sum+=b;
+
+    printf("a+b=%d\n",sum);
+
     return 0;
 }
